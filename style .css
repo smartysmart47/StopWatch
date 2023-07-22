@@ -1,0 +1,37 @@
+body {
+    background: #edeaff;
+}
+
+.stopWatch {
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 100px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: cursive;
+}
+
+.stopWatch h1 {
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2) {
+    width: 80px;
+}
